@@ -32,12 +32,12 @@
     }
   ],
   "auth": {
-    "rolesSource": "/api/getroles",
+    "rolesSource": "jh",
     "identityProviders": {
-      "google": {
+      "github": {
         "registration": {
-          "clientIdSettingName": "GOOGLE_CLIENT_ID",
-          "clientSecretSettingName": "GOOGLE_CLIENT_SECRET"
+          "clientIdSettingName": "GITHUB_CLIENT_ID",
+          "clientSecretSettingName": "GITHUB_CLIENT_SECRET"
         }
       }
     }
